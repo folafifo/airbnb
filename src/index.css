@@ -62,20 +62,22 @@ body {
   line-height: 110%;
   color: #222222;
 }
-.cards {
+.cardsDiv {
   width: 550px;
   height: 381px;
+  display: flex;
+  padding-left: 37px;
+  overflow: hidden;
 }
-.swimmer-pic {
+.card-pic {
   width: 176px;
   height: 235px;
-  margin-left: 37px;
+  margin-right: 18px;
   margin-top: 49px;
 }
 .star1 {
   width: 14px;
   height: 14px;
-  margin-left: 36px;
   margin-right: 4px;
   margin-top: 10px;
   border-radius: 0.5px;
@@ -110,7 +112,6 @@ body {
   font-weight: 300;
   font-size: 12px;
   line-height: 110%;
-  margin-left: 36px;
   margin-top: 8px;
   /* identical to box height, or 13px */
   color: #222222;
@@ -120,8 +121,21 @@ body {
   font-style: normal;
   font-size: 12px;
   line-height: 110%;
-  margin-left: 36px;
   margin-top: 8px;
   /* identical to box height, or 13px */
   color: #222222;
+}
+.badge {
+  position: absolute;
+  top: 54px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-family: Poppins;
+  font-size: 13px;
+}
+.cards {
+  position: relative;
 }
