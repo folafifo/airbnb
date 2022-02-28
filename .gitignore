@@ -21,3 +21,27 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# <Contact 
+#         img={require("./components/images/cat.png")}
+#         name="Mr. Whiskerson"
+#         phone="(212) 555-1234"
+#         email="mr.whiskaz@catnap.meow"
+#       />
+#       <Contact 
+#         img={require("./components/images/cat1.png")}
+#         name="Fluffykins"
+#         phone="(212) 555-2345"
+#         email="fluff@me.com"/>
+#       <Contact 
+#         img={require("./components/images/cat2.png")}
+#         name="Felix"
+#         phone="(212) 555-4567"
+#         email="thecat@hotmail.com"/>
+#       <Contact 
+#         img={require("./components/images/cat3.png")}
+#         name="Pumpkin"
+#         phone="(0800) CAT KING"
+#         email="pumpkin@scrimba.com"
+#       />
