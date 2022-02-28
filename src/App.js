@@ -13,6 +13,7 @@ export default function App() {
     <Card 
         key = {item.id}
         item={item}
+        // {...item}
         /> 
     )
   })
