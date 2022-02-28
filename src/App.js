@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Contact from "./components/Contact";
+// import Card from "./components/Card";
+// import Hero from "./components/Hero";
+// import Navbar from "./components/Navbar";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    // <div className="page">
+    <div className="contacts">
+      <Contact 
+        img={require("./components/images/cat.png")}
+        name="Mr. Whiskerson"
+        phone="(212) 555-1234"
+        email="mr.whiskaz@catnap.meow"
+      />
+      <Contact 
+        img={require("./components/images/cat1.png")}
+        name="Fluffykins"
+        phone="(212) 555-2345"
+        email="fluff@me.com"/>
+      <Contact 
+        img={require("./components/images/cat2.png")}
+        name="Felix"
+        phone="(212) 555-4567"
+        email="thecat@hotmail.com"/>
+      <Contact 
+        img={require("./components/images/cat3.png")}
+        name="Pumpkin"
+        phone="(0800) CAT KING"
+        email="pumpkin@scrimba.com"
+      />
+      {/* <Navbar />
+      <Hero />
+      <div className="cards">
+        <Card /> */}
+      {/* </div> */}
     </div>
   );
 }
-
-export default App;
